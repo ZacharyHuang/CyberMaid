@@ -23,7 +23,7 @@ def main():
             words = []
             for word in st.session_state.agent.run_stream(user_input=user_input):
                 words.append(word)
-                msg_box.markdown(f'{''.join(words).strip()}')
+                msg_box.markdown(''.join(words).strip())
                 
             st.session_state.messages.append({'role': 'assistant', 'content': ''.join(words).strip()})
 
