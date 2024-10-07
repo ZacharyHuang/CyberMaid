@@ -1,0 +1,10 @@
+{
+    "brain": {
+        "type": "BrainAgent",
+        "model": "gpt-4o"
+    },
+    "mouth": {
+        "type": "MouthAgent",
+        "model": "gpt-4o"
+    }
+}

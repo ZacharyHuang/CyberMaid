@@ -1,0 +1,9 @@
+{
+    "brain_model": "gpt-4o",
+    "mouth_model": "gpt-4o",
+    "profile":{
+        "language": "zh-hans",
+        "region": "CN",
+        "city": "Beijing"
+    }
+}
